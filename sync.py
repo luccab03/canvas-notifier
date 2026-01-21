@@ -2,9 +2,7 @@ import os
 import requests
 import datetime
 from icalendar import Calendar
-from dotenv import load_dotenv
 
-load_dotenv()
 CANVAS_ICAL_URL = os.environ["CANVAS_ICAL_URL"]
 NTFY_TOPIC = os.environ["NTFY_TOPIC"]
 
