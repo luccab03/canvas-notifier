@@ -26,6 +26,6 @@ jobs:
 
       - name: Run Sync Script
         env:
-          NTFT_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           CANVAS_ICAL_URL: ${{ secrets.CANVAS_ICAL_URL }}
         run: python sync.py
